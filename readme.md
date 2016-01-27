@@ -16,5 +16,9 @@ This repo is for angularjs concepts and what's going on under the hood.
 
 ###Notes:
 
- - scope is an object.
+ - Scope is an object.
  - pass data between controllers? using services, don't say rootscope. 
+ -  don't user the variables with $$ because they're meant to be private for angularJS.
+ -  `$scope.$$watchers` is a list of watchers. 
+ -  What are directives? a way to let/teach html to perform some functionality. They live inside your html. Examples of directives? ng-model, ng-repat ..etc. You can make your own custom directives. 
+ 
