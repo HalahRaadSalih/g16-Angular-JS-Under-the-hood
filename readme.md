@@ -9,7 +9,7 @@ This repo is for angularjs concepts and what's going on under the hood.
 - what does apply do?
 - what is the difference between `$scope.$digest` and `$scope.$apply`?
 	-  `$scope.$digest()`it fires all watchers from the scope it was called from. 
-	-  `scope.$apply()` goes all the way to the rootscope and fire their changes.
+	-  `scope.$apply()` goes all the way to the rootscope and fires every child digest cycle.
 - what is the `$rootscope`?
 	- it is the father of all others scopes per app. Every app has one rootscope and every controller has scope. 
 
